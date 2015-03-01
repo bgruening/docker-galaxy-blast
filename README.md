@@ -91,11 +91,11 @@ You can get BLAST databases directly from the [NCBI server](ftp://ftp.ncbi.nlm.n
 
  - Download your databases from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
    You can use the NCBI suggested [perl script](http://www.ncbi.nlm.nih.gov/blast/docs/update_blastdb.pl) to automatize this step.
- - Store all your BLAST databases in one directory, for example `/galaxy_store/data/blast_databases/`
- - Start your Galaxy container with `-v /galaxy_store/data/blast_databases/:/data/` to have access your databases inside of your container
- - Start your Galaxy container with ``-v /home/user/galaxy_storage/:/export/`` to export all config files to your host operating system
+ - Store all your BLAST databases in one directory, for example `/galaxy_store/data/blast_databases/`.
+ - Start your Galaxy container with `-v /galaxy_store/data/blast_databases/:/data/` to have access your databases inside of your container.
+ - Start your Galaxy container with ``-v /home/user/galaxy_storage/:/export/`` to export all config files to your host operating system,
  - Modify your `blast*.loc` files under `/home/user/galaxy_storage/galaxy-central/tool-data/blast*.loc` on your host, or under `/export/galaxy-central/tool-data/blast*.loc` from within your container.
- - You need to add the paths to your blast databases. They need to look like `/data/swissprot/swissprot`
+ - You need to add the paths to your blast databases. A path points to the BLAST databases accessible from within Docker and looks like `/data/swissprot/swissprot`.
  - Restart your Galaxy instance, for example with ```docker exec <container name> supervisorctl restart galaxy:```
 
 From now on you should see predifined BLAST databases in your Galaxy User Interface if you choose `Locally installed BLAST database`.
