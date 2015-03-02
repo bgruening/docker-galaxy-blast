@@ -1,6 +1,5 @@
 
-[![DOI](https://zenodo.org/badge/5466/bgruening/docker-galaxy-blast.svg)](http://dx.doi.org/10.5281/zenodo.15725)
-
+[![DOI](https://zenodo.org/badge/5466/bgruening/docker-galaxy-blast.svg)](http://dx.doi.org/10.5281/zenodo.15781)
 
 Galaxy Image for the BLAST+ suite
 =================================
