@@ -19,6 +19,7 @@ RUN install-repository \
     "--url https://toolshed.g2.bx.psu.edu/ -o iuc --name package_blast_plus_2_2_29" \
     "--url https://toolshed.g2.bx.psu.edu/ -o devteam --name ncbi_blast_plus --panel-section-name BLAST+" \
     "--url https://toolshed.g2.bx.psu.edu/ -o devteam --name intersect --panel-section-id textutil" \
+    "--url https://toolshed.g2.bx.psu.edu/ -o peterjc --name blast_top_hit_species --panel-section-name BLAST+" \
     "--url https://toolshed.g2.bx.psu.edu/ -o devteam --name column_maker --panel-section-id textutil"
 
 # install workflows
