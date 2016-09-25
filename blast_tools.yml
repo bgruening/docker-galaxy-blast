@@ -61,7 +61,7 @@ tools:
   tool_panel_section_label: "BLAST+"
   tool_shed_url: https://toolshed.g2.bx.psu.edu
   revisions:
-  - 9ba8ebb636f4
+  - 7f3c448e119b
 
 - name: blast_top_hit_species
   owner: peterjc
