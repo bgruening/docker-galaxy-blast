@@ -39,7 +39,8 @@ For more details about this command line or specific usage, please consult the
 
 # Contributers
 
- - Bjoern Gruening
+ - Björn Grüning (@bgruening)
+ - Peter Cock (@peterjc)
  
 
 # Support & Bug Reports
