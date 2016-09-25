@@ -4,8 +4,7 @@
 ![docker pulls](https://img.shields.io/docker/pulls/bgruening/galaxy-blast.svg) ![docker stars](https://img.shields.io/docker/stars/bgruening/galaxy-blast.svg)
 
 
-Galaxy Image for the BLAST+ suite
-=================================
+# Galaxy Image for the BLAST+ suite
 
 A complete and production ready Galaxy instance with installed BLAST+ tools.
 
@@ -40,7 +39,7 @@ For more details about this command line or specific usage, please consult the
 [`README`](https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md) of the main Galaxy Docker image, on which the current image is based.
 
 
-= Reproducibility of your search results
+# Reproducibility of your search results
 
 
 BLAST databases are updated daily and are not versioned. This is a general problem for reproducibility of search results.
@@ -55,7 +54,7 @@ configure your BLAST Galaxy instance to use those. Please have a look at [Using 
 Please understand that we cannot ship the NCBI BLAST databases by default in this Docker container, as we try to keep the image as small as possible.
 
 
-= Using large external BLAST databases
+# Using large external BLAST databases
 
 
 You can get BLAST databases directly from the [NCBI server](ftp://ftp.ncbi.nlm.nih.gov/blast/db/) and include them into your Galaxy docker container.
