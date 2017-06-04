@@ -42,59 +42,35 @@ tools:
 - name: blastxml_to_top_descr
   owner: peterjc
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - fe1ed74793c9
-  - 98f8431dab44
-  - 09a68a90d552
-  - 6aafa0ced802
 
 - name: blast_rbh
   owner: peterjc
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - 9ba8ebb636f4
 
 - name: ncbi_blast_plus
   owner: devteam
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - 7f3c448e119b
 
 - name: blast_top_hit_species
   owner: peterjc
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - db0c1bb92308
 
 - name: column_maker
   owner: devteam
   tool_panel_section_id: "textutil"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-  revisions:
-  - 626658afe4cb
 
 - name: intersect
   owner: devteam
   tool_panel_section_id: "textutil"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 
 - name: blast2go
   owner: peterjc
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 
 - name: find_three_genes_located_nearby_workflow
   owner: bgruening
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
 
 - name: find_genes_located_nearby_workflow
   owner: bgruening
   tool_panel_section_label: "BLAST+"
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
-
-
