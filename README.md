@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/5466/bgruening/docker-galaxy-blast.svg)](http://dx.doi.org/10.5281/zenodo.15781)
 [![Build Status](https://travis-ci.org/bgruening/docker-galaxy-blast.svg?branch=master)](https://travis-ci.org/bgruening/docker-galaxy-blast)
 ![docker pulls](https://img.shields.io/docker/pulls/bgruening/galaxy-blast.svg) ![docker stars](https://img.shields.io/docker/stars/bgruening/galaxy-blast.svg)
-
+[![Gitter](https://badges.gitter.im/bgruening/docker-galaxy-stable.svg)](https://gitter.im/bgruening/docker-galaxy-stable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Galaxy Image for the BLAST+ suite
 
