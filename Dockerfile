@@ -1,7 +1,4 @@
 # Galaxy - BLAST+ suite
-#
-# VERSION       0.1
-
 FROM bgruening/galaxy-sequence-tools:19.01
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
